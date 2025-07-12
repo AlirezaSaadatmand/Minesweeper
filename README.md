@@ -1,42 +1,69 @@
 # 📜 Minesweeper Game
 
-This is a simple implementation of the classic **Minesweeper** game.
+This is a simple implementation of the classic **Minesweeper** game written in **Python (using Pygame)** and **JavaScript (using HTML5 Canvas)**.
 
-## 📜 Requirements
+---
 
-Before running the game, ensure you have the following installed:
+## 📦 Contents
 
-- Python 3.x (Latest version recommended)
-- Pygame library
+- `Python` — Python version of Minesweeper using Pygame
+- `JavaScript` — Browser version using HTML Canvas
 
-You can install Pygame using the following command:
+---
+
+## 🐍 Python Version
+
+### 📋 Requirements
+
+Make sure you have:
+
+- Python 3.x installed
+- Pygame installed
+
+You can install Pygame using:
 
 ```sh
 pip install pygame
 ```
 
-## 🚀 How to Run
+### 🚀 How to Run
 
 Clone this repository or download the files:
 
 ```sh
-git clone https://github.com/AlirezaSaadatmand/Snake_Game.git
-cd Snake_Game/Python
+git clone https://github.com/AlirezaSaadatmand/Minesweeper_Game.git
+cd Minesweeper_Game/Python
 ```
-Run the game script:
+
+Then run the game:
 
 ```sh
-python snake.py
+python minesweeper.py
 ```
-or 
+
+or:
+
 ```sh
-python3 snake.py
+python3 minesweeper.py
 ```
 
-## 🎮 How to Play
+---
 
-- Click on a cell to reveal it.
-- If you click on a mine, you lose.
-- Numbers show how many mines are around a cell.
-- Clear all non-mine cells to win the game.
-`
+## 🌐 JavaScript Version
+
+### 🧱 Requirements
+
+Any modern web browser (Chrome, Firefox, Edge, etc.).
+
+### 🚀 How to Run
+
+Open the `JavaScript/index.html` file in your browser.
+
+---
+
+### 🎮 How to Play
+
+- Left click to reveal a tile.
+- If it's a bomb, the game ends.
+- Numbers represent nearby bomb count.
+- Reveal all safe tiles to win.
